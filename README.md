@@ -12,4 +12,5 @@ git clone https://github.com/andrew123-rev/SpamAmino
 
 # For start:
 cd SpamAmino
+
 python spam.py
