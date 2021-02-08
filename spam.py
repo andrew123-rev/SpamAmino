@@ -24,6 +24,7 @@ comId=wiki.path[1:wiki.path.index('/')]
 subclient=amino.SubClient(comId=comid ,profile=client.profile)
 comment=input("Сообщение:")
 while True:
-try: sub_client.comment(message=comment, wikiId=wikiId)
+try: 
+sub_client.comment(message=comment, wikiId=wikiId)
 print("Сообщение отправлено")
 except: pass
